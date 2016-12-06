@@ -1,0 +1,159 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, ul, img {
+	margin:0px;
+	padding:0px;
+}
+@charset "UTF-8";
+/* CSS Document */
+.content {
+  
+}
+html {
+	background-color:#f8f4dc;
+}
+body {
+	font-family: Georgia; 
+  margin:0 auto;
+    min-width:1200px;
+}
+.container{
+  background-color:;
+}
+h1 {
+	font-weight:normal;
+}
+
+.header1{
+  text-decoration: none;
+}
+
+#logo {
+	float:left;
+	padding-top:36px;
+	padding-right:20px;
+	padding-left:105px;
+    display:block;
+}
+
+#sitename a {
+    text-decoration: none;
+	margin-top: 0px;
+	font-size: 50px;
+	color:#378236;
+	padding-top:50px;
+	font-family:Georgia;
+	padding-bottom:50px;
+    display:block;
+}
+
+#plantbio a {
+    text-decoration:none;
+    float:right;
+    margin-top:50px;
+    margin-right:65px;
+    font-family:Georgia;
+    color:#378236;
+    font-size:36px;
+    overflow:hidden;
+    display:block;
+    white-space: nowrap;
+}
+
+#uga {
+    font-size:20px;
+    text-align:right;
+    color:#808080;
+    margin-top:3px;
+}
+
+#menu {
+	background-color: #378236;
+	height:50px;
+	white-space: nowrap;
+	overflow: hidden;
+  box-shadow: 4px 3px 12px 0px rgba(0,0,0,0.3), inset -2px -2px 7px rgba(0,0,0,0.2);
+}
+
+ul#menu {
+	margin:0;
+	padding:0;
+}
+
+ul#menu li {
+	list-style: none;
+  margin-left:105px;
+}
+
+ul#menu li a {
+	text-decoration: none;
+	font-size: 18px;
+	float: left;
+	display: block;
+	padding: 15px 30px;
+	color: #f8f4dc;
+}
+
+ul#menu li a:hover {
+	color:#378236;
+	background-color: #f3dfa3;
+    box-shadow bottom: 1px 3px 12px 0px  rgba(0,0,0,0.1);   box-shadow: inset 0px -2px 9px rgba(0,0,0,0.2);
+}
+
+#content {
+    width:800px;
+    background-color:;
+    height:1000px;
+    padding-top:30px;
+    margin:0 auto;
+}
+
+#title {
+    color:#378236;
+    font-size: 22px;
+    margin-bottom:30px;
+    margin-top:8px;
+}
+
+#text {
+    background-color:;
+    padding:
+}
+
+#text > p {
+    margin-bottom:20px;
+    text-align:justify;
+    text-indent:50px;
+    font-size:18px;
+}
+
+#text > img {
+    margin-left:40px;
+    margin-bottom:20px;
+    width:350px
+}
+
+#footer{
+  height:50px;
+  white-space: nowrap;
+	overflow: hidden;
+  background-color:#378236;
+   box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.2), inset 0px -2px 5px rgba(0,0,0,0.2);
+  color:#f8f4dc;
+}
+
+#copyright {
+  margin-top:16px;
+  margin-left:135px;
+    display:block;
+    width:400px;
+    float:left;
+}
+
+#citationlink{
+    display:block;
+    float:right;
+    margin-top:16px;
+    margin-right:130px;
+    color:#f8f4dc;
+    text-decoration: none;
+}
+

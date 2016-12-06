@@ -1,0 +1,237 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, ul, img {
+	margin:0px;
+	padding:0px;
+}
+@charset "UTF-8";
+/* CSS Document */
+.content {
+  
+}
+html {
+	background-color:#f8f4dc;
+}
+body {
+	font-family: Georgia; 
+  margin:0 auto;
+    min-width:1200px;
+}
+.container{
+  background-color:;
+}
+h1 {
+	font-weight:normal;
+}
+
+.header1{
+  text-decoration: none;
+}
+
+#logo {
+	float:left;
+	padding-top:36px;
+	padding-right:20px;
+	padding-left:105px;
+    display:block;
+}
+
+#sitename a {
+    text-decoration: none;
+	margin-top: 0px;
+	font-size: 50px;
+	color:#378236;
+	padding-top:50px;
+	font-family:Georgia;
+	padding-bottom:50px;
+    display:block;
+}
+
+#plantbio a {
+    text-decoration:none;
+    float:right;
+    margin-top:50px;
+    margin-right:65px;
+    font-family:Georgia;
+    color:#378236;
+    font-size:36px;
+    overflow:hidden;
+    display:block;
+    white-space: nowrap;
+}
+
+#uga {
+    font-size:20px;
+    text-align:right;
+    color:#808080;
+    margin-top:3px;
+}
+
+#menu {
+	background-color: #378236;
+	height:50px;
+	white-space: nowrap;
+	overflow: hidden;
+  box-shadow: 4px 3px 12px 0px rgba(0,0,0,0.3), inset -2px -2px 7px rgba(0,0,0,0.2);
+}
+
+ul#menu {
+	margin:0;
+	padding:0;
+}
+
+ul#menu li {
+	list-style: none;
+  margin-left:105px;
+}
+
+ul#menu li a {
+	text-decoration: none;
+	font-size: 18px;
+	float: left;
+	display: block;
+	padding: 15px 30px;
+	color: #f8f4dc;
+}
+
+ul#menu li a:hover {
+	color:#378236;
+	background-color: #f3dfa3;
+    box-shadow bottom: 1px 3px 12px 0px  rgba(0,0,0,0.1);   box-shadow: inset 0px -2px 9px rgba(0,0,0,0.2);
+}
+
+#content {
+    width:900px;
+    background-color:;
+    height:770px;
+    padding-top:30px;
+       margin:0 auto;
+}
+
+#people {
+    color:#378236;
+    font-size: 22px;
+    margin-bottom:30px;
+    margin-top:8px;
+}
+
+#sidebar {
+    width:200px;
+    float:left;
+    /*background-color:#378236;
+    padding:13px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+    box-shadow: inset 0px -1px 10px rgba(0,0,0,0.2);*/
+}
+
+.sidebaricon {
+    display:block;
+    font-size:18px;
+    color:#f8f4dc;
+    text-align:center;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-decoration: none;
+    margin-bottom:10px;
+    background-color:#3f8d3e;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2); 
+    box-shadow: inset 0px -1px 7px rgba(0,0,0,0.2);
+}
+
+.sidebaricon:hover {
+    display:block;
+    color:#378236;
+    text-align:center;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-decoration: none;
+    margin-bottom:10px;
+    background-color:#f3dfa3;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3); 
+    box-shadow: inset 0px -1px 7px rgba(0,0,0,0.3);
+}
+
+.sidebaricon1 {
+    display:block;
+    font-size:18px;
+    color:#f8f4dc;
+    text-align:center;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-decoration: none;
+    background-color:#3f8d3e;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2); 
+    box-shadow: inset 0px -1px 7px rgba(0,0,0,0.2);
+}
+
+.sidebaricon1:hover {
+    display:block;
+    color:#378236;
+    text-align:center;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-decoration: none;
+    background-color:#f3dfa3;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3); 
+    box-shadow: inset 0px -1px 7px rgba(0,0,0,0.3);
+}
+
+
+#person {
+    width:610px;
+    float:right;
+}
+
+#personimage {
+    margin-left:194px;
+    margin-bottom:20px;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+    width:218px;
+    height:232px
+}
+
+
+#name {
+    margin-bottom:15px;
+    text-align:center;
+}
+
+#personalinfo {
+     margin-bottom:30px;
+    text-align:center;
+}
+
+#bio {
+    margin-bottom: 30px;
+}
+
+#bio > p {
+  margin-left:10px;
+    text-align:justify
+}
+
+
+#footer{
+  height:50px;
+  white-space: nowrap;
+	overflow: hidden;
+  background-color:#378236;
+   box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.2), inset 0px -2px 5px rgba(0,0,0,0.2);
+  color:#f8f4dc;
+}
+
+#copyright {
+  margin-top:16px;
+  margin-left:135px;
+    display:block;
+    width:400px;
+    float:left;
+}
+
+#citationlink{
+    display:block;
+    float:right;
+    margin-top:16px;
+    margin-right:130px;
+    color:#f8f4dc;
+    text-decoration: none;
+}
+
