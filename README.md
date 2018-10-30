@@ -1,3 +1,3 @@
-# charlieye99.github.io
+# Ye-Lab
 
 A website created for the Ye Plant Biology lab at UGA.
